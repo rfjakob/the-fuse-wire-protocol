@@ -2,11 +2,13 @@
 
 This document tries to summarize and structure what I have
 learned about the
-FUSE protocol and Linux kernel internals during the development
+FUSE (Filesystem in Userspace) protocol and Linux kernel internals during the development
 of [gocryptfs](https://nuetzlich.net/gocryptfs/).
 
 The Markdown source code of this document is available at
 <https://github.com/rfjakob/the-fuse-wire-protocol> - pull requests welcome!
+
+The rendered HTML should always be available at <https://nuetzlich.net/the-fuse-wire-protocol/>.
 
 Linux Filesystem Stack
 ----------------------

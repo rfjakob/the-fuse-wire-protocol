@@ -149,3 +149,7 @@ See Also
 * Overview of the Linux Virtual File System  
   Richard Gooch, Pekka Enberg  
   <https://www.kernel.org/doc/Documentation/filesystems/vfs.txt>
+
+* To FUSE or Not to FUSE: Performance of User-Space File Systems  
+  Vangoor, Tarasov, Zadok; 2017  
+  <https://www.usenix.org/system/files/conference/fast17/fast17-vangoor.pdf>

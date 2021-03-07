@@ -78,9 +78,10 @@ follow the developments in libfuse.
 Message Format
 --------------
 
-Both sides have the message format defined correspondingly in C header files.
-As there is no other formal specification, these header files define the building
-blocks of the FUSE wire protocol:
+Note: the excellent manual page [fuse.4](https://man7.org/linux/man-pages/man4/fuse.4.html)
+has more details.
+
+Kernel & userspace have the message format defined correspondingly in C header files:
 
 * Userspace:
   [libfuse/include/fuse_kernel.h](https://github.com/libfuse/libfuse/blob/21b55a05a158b1c225ba312529bc068cadd5431d/include/fuse_kernel.h)
@@ -142,6 +143,10 @@ directory the `nodeid` corresponds to.
 
 See Also
 --------
+
+* fuse(4) — Linux manual page
+  <https://man7.org/linux/man-pages/man4/fuse.4.html>
+
 * Writing a FUSE Filesystem: a Tutorial  
   Joseph J. Pfeiffer Jr.  
   <https://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial/>
